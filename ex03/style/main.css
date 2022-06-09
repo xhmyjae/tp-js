@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #546A7B;
+    overflow-x: hidden;
+}
+
+.starting-page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s;
+}
+
+.starting-button {
+    text-decoration: none;
+    color: #FDFDFF;
+}
+
+#in-game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+}
+
+.question-number {
+    color: #FDFDFF;
+    font-weight: bold;
+    font-size: 3vh;
+    /*text-shadow: 0.1vw 0vw 0.25vw #181817, 0.15vw 0vw 0.25vw #272726, 0.1vw 0vw 0.1vw #272726;*/
+}
+
+.question > img {
+    width: 10vh;
+}
+
+.question > div {
+    background-color: #C6C5B9;
+    width: 64vh;
+    padding: 1.5vh;
+    margin-left: 3vh;
+}
+
+.previous-button i, .next-button i {
+    color: #FDFDFF;
+    margin: 1.5vh 2vh;
+    cursor: pointer;
+    font-size: 2.5vh;
+}
+
+.buttons {
+    display: flex;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    background-color: #62929E;
+    padding: 2vh;
+}
+
+.hide {
+    display: none;
+}
+
+.submit-button {
+    display: flex;
+    justify-content: end;
+}
+
+.submit-button > button {
+    background-color: #a99985;
+    color: #FDFFFF;
+    border: none;
+    border-radius: 1vh;
+    margin-top: 1vh;
+    height: 4vh;
+    font-size: 1rem;
+    width: 13vh;
+    font-weight: bold;
+}
+
+form#quizz {
+    height: 40vh;
+}
+
+.score-board {
+    display: none;
+    color: #FDFFFF;
+    font-size: 130%;
+}
+
+.score-text {
+    margin-right: 1vh;
+}
+
+.score-text p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

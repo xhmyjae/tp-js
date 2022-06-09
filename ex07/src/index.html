@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="xhmyjae">
+    <meta name="description" content="A colorful grid game.">
+    <title>Blue line</title>
+
+    <link rel="icon" href="../resources/icon.png">
+    <script src="https://kit.fontawesome.com/74fed0e2b5.js" crossorigin="anonymous"></script>
+    <script defer src="../scripts/index.js"></script>
+    <link rel="stylesheet" href="../style/main.css">
+
+</head>
+<body>
+
+<div class="start">
+    <div id="start-btn">START</div>
+</div>
+
+<div class="input-name hide">
+    <div class="input-name-title">Enter your name</div>
+    <div class="input-name-input">
+        <label>
+            <input type="text" id="input-name" placeholder="Your name" required>
+        </label>
+        <div class="input-name-btn">
+            <button id="name-btn">OK</button>
+        </div>
+    </div>
+</div>
+
+
+<div class="in-game hide">
+
+    <table id="grid-table"></table>
+
+    <div class="timer"></div>
+
+    <div class="reset">
+        <div id="reset-btn">RESET</div>
+    </div>
+</div>
+
+<div class="score-board">
+    <span class="score-board-title">TOP 5 challengers</span>
+    <i class="fa-solid fa-trophy"></i>
+    <div class="score-board-challengers"></div>
+</div>
+
+
+</body>
+</html>

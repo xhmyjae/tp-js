@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Lato,Helvetica,Arial,tahoma,"Hiragino Maru Gothic Pro","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+    color: #FDFDFF;
+}
+
+.location, .weather {
+    z-index: 2;
+}
+
+.back4-9 {
+    background: url(../resources/back4-9.jpg) no-repeat center;
+}
+
+.back10-15 {
+    background: url(../resources/back10-15.jpg) no-repeat center;
+}
+
+.back16-21 {
+    background: url(../resources/back16-21.jpg) no-repeat center;
+}
+
+.back22-3 {
+    background: url(../resources/back22-3.jpg) no-repeat center;
+}
+
+.current-location {
+    text-transform: uppercase;
+    font-size: 4vh;
+    margin: 3vh;
+    text-shadow: 2px 2px 8px black;
+}
+
+.location {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+}
+
+.weather-infos {
+    background: #00000054;
+    border-radius: 50%;
+    width: 60vh;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.search-location {
+    margin: 4vh;
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+
+input[type="text"] {
+    border: none;
+    border-radius: 1vh;
+    padding: 1vh 3vh;
+    width: 30vh;
+}
+
+button#search-button {
+    border: none;
+    padding: 1vh;
+    width: 4vh;
+    height: 4vh;
+    margin-left: 1vh;
+    cursor: pointer;
+}
+
+.temperature {
+    display: flex;
+    font-size: 7vh;
+    justify-content: center;
+}
+
+.weather-icon {
+    margin-left: 2vh;
+}
+
+span.weather-state {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3vh;
+}
+
+.wind-state, .humidity-state, .min-max-temperature {
+    font-size: 2.5vh;
+    margin: 1vh 0 0 8vh;
+}
+
+span.wind-value, span.humidity-value {
+    margin-left: 0.5vh;
+}
+
+span.date {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 7vh 0 0 0;
+    font-size: 2.5vh;
+}
+
+.fa-arrow-up-long {
+    margin-left: 1vh;
+}
+
+.hide {
+    display: none;
+}
+
+.auto-complete-list {
+    position: relative;
+    width: 100%;
+    background: #00000054;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.auto-complete-cities {
+    width: 100%;
+    cursor: pointer;
+    padding: 1vh;
+}
+
+.auto-complete-cities:hover {
+    background: #00000054;
+}

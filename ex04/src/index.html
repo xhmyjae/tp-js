@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="xhmyjae">
+    <meta name="description" content="Weather update site.">
+    <title>Accurate Weather</title>
+
+    <link rel="icon" href="../resources/icon.jpg">
+    <script src="https://kit.fontawesome.com/74fed0e2b5.js" crossorigin="anonymous"></script>
+
+    <script defer src="../scripts/index.js"></script>
+    <script defer src="../scripts/change-background.js"></script>
+    <script defer src="../scripts/auto-completion.js"></script>
+    <link rel="stylesheet" href="../style/main.css">
+</head>
+<body>
+
+<div class="location">
+    <div class="current-location">
+        <i class="fa-solid fa-location-dot"></i>
+        <span class="current-location-name"></span>
+    </div>
+    <div class="search-location">
+        <div>
+            <label>
+                <input type="text" placeholder="Search location" id="city-search">
+            </label>
+            <div class="auto-complete-list"></div>
+        </div>
+
+        <button id="search-button">
+            <i class="fas fa-search"></i>
+        </button>
+    </div>
+</div>
+
+<div class="weather hide">
+    <div class="weather-infos">
+        <div class="temperature">
+            <span class="temperature-value"></span>
+            <span class="temperature-unit">°C</span>
+            <div class="weather-icon">
+                <img src="" alt="weather icon">
+            </div>
+        </div>
+        <div class="weather-description">
+            <span class="weather-state"></span>
+            <div class="wind-state">
+                <i class="fa-solid fa-wind"></i>
+                <span class="wind-value"></span>
+            </div>
+            <div class="humidity-state">
+                <i class="fa-solid fa-droplet"></i>
+                <span class="humidity-value"></span>
+            </div>
+            <div class="min-max-temperature">
+                <span class="min-temperature-title"><i class="fa-solid fa-arrow-down-long"></i> min :</span>
+                <span class="min-temperature"></span>
+                <span class="max-temperature-title"><i class="fa-solid fa-arrow-up-long"></i> max :</span>
+                <span class="max-temperature"></span>
+            </div>
+            <span class="date"></span>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

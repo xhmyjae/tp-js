@@ -1,0 +1,49 @@
+body {
+    background : url('../resources/background.png') center no-repeat fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.frame {
+    height: 390px;
+    width: 99vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.frame > img {
+    z-index: 2;
+}
+
+.background-parts {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.background-part {
+    z-index: 1;
+}
+
+.seq-a {
+    width: 301px;
+    height: 390px;
+    margin-right: 30vh;
+    margin-top: 20vh;
+}
+
+.seq-b {
+    width: 203px;
+    height: 333px;
+    margin-top: 30vh;
+}
+
+.seq-a {
+    background-image: url("../resources/seq-a.png");
+}
+
+.seq-b {
+    background-image: url("../resources/seq-b.png");
+}

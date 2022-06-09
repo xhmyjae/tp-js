@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "grobold";
+    src: url("GROBOLD.ttf");
+}
+
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-image: url(../resources/background.jpg);
+    display: flex;
+    flex-direction: column;
+    color: #FDFDFF;
+    font-family: "grobold";
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    height: 15vh;
+}
+
+.game {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+/* COINS */
+
+.coins {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coins > div {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    height: 42%;
+    clip-path: polygon(12% 21%, 100% 21%, 92% 87%, 2% 86%);
+    background-color: #652be2;
+    padding: 2vh 5vh;
+}
+
+.updates-coins {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    font-size: 4vh;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.shakeX {
+    animation: shakeX 1s;
+}
+
+.current-coins {
+    margin-left: 2vh;
+}
+
+.fa-coins {
+    color: #bd910f;
+}
+
+/* SLOTS */
+
+.slots {
+    display: flex;
+}
+
+.slot {
+    background: rgba(255, 255, 255, 0.83);
+    background-size: 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25vh;
+    height: 32vh;
+    box-shadow: inset 0px 0px 20px 1px rgb(248 74 167), 0px 0px 20px 1px rgb(248 74 167);
+    margin: 0 1vh;
+    border: solid rgb(248 74 167);
+    border-radius: 1vh;
+    animation:slide 1s infinite linear;
+}
+
+/* BUTTONS */
+
+.bet-button {
+    width: 12vh;
+    height: 12vh;
+    border-radius: 50%;
+    margin: 5vh 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3vh;
+}
+
+.bet-button:hover {
+    filter: brightness(1.2);
+}
+
+.bet-button-1 {
+    background-color: #225c1c;
+    box-shadow: inset 0px 0px 20px 1px #2d8924, 0px 0px 20px 1px rgb(37 94 26);;
+}
+
+.bet-button-2 {
+    background-color: #a09335;
+    box-shadow: inset 0px 0px 20px 1px rgb(248 244 74), 0px 0px 20px 1px rgb(121 93 28);
+}
+
+.bet-button-3 {
+    background-color: #8e471e;
+    box-shadow: inset 0px 0px 20px 1px rgb(203 87 75), 0px 0px 20px 1px rgb(105 41 33);
+}
+
+/* SLOTS IMAGES */
+
+.casino {
+    background-image: url("../resources/casino.png");
+}
+
+.cherry {
+    background-image: url("../resources/cherry.png");
+}
+
+.diamond {
+    background-image: url("../resources/diamond.png");
+}
+
+.lemon {
+    background-image: url("../resources/lemon.png");
+}
