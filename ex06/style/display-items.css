@@ -1,0 +1,33 @@
+.buy-phase {
+    display: flex;
+    height: 70%;
+    margin-top: 10vh;
+    justify-content: center;
+}
+
+.item-image {
+    display: flex;
+    justify-content: center;
+}
+
+.item-image > img {
+    width: 35vh;
+    height: 22vh;
+    object-fit: cover;
+}
+
+.item {
+    border: solid #5151513b 1px;
+    padding: 1vh;
+    height: 80%;
+    width: 37vh;
+}
+
+.item-info {
+    font-size: 2vh;
+    margin-top: 6vh;
+}
+
+.add-to-cart {
+    display: flex;
+}

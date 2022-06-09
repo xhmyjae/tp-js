@@ -1,0 +1,61 @@
+html, body {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-family: Lato,Helvetica,Arial,tahoma,"Hiragino Maru Gothic Pro","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+    background-color: #eaeaea;
+}
+
+/* MENU BAR */
+
+.menu-bar {
+    background-color: #272726;
+    height: 12vh;
+    box-shadow: 0 5px 11px grey;
+    color: #FDFDFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-name-div {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-decoration: none;
+    color: #FDFFFF;
+}
+
+.menu-name {
+    margin: 0 0 0 3vh;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.menu-cart {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #FDFFFF;
+}
+
+.fa-cart-shopping {
+    padding: 2vh;
+    font-size: 3vh;
+    background: black;
+    border-radius: 5vh;
+    margin: 0 3vh 0 0;
+    cursor: pointer;
+}
+
+/* ITEMS */
+
+.fa-plus, .fa-minus {
+    cursor: pointer;
+}
+
+.hide {
+    visibility: hidden;
+}

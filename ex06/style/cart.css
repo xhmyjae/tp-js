@@ -1,0 +1,120 @@
+.page {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5vh;
+}
+
+.total {
+    width: 25%;
+}
+
+.buy-phase {
+    width: 70%;
+}
+
+.total-box {
+    border: solid 4px #208f20;
+}
+
+.total-content {
+    padding: 0 1vh 1vh 1vh;
+}
+
+p.total-title-text {
+    margin: 0;
+    padding: 2vh;
+    background: linear-gradient(#208f20, #56d28f);
+    color: #FDFFFF;
+    font-size: 2.5vh;
+}
+
+.summary-number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary-number-final-price {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* ITEM */
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 2vh;
+    margin-bottom: 1vh;
+}
+
+img.item-image {
+    width: 27vh;
+    height: 18vh;
+    object-fit: cover;
+}
+
+.item-content {
+    display: flex;
+}
+
+.item-description {
+    margin-left: 1.5vh;
+}
+
+.item-price-infos {
+    display: flex;
+}
+
+.item-price-infos > p {
+    margin-bottom: 0;
+}
+
+p.item-price {
+    margin-right: 1vh;
+}
+
+p.item-discount {
+    margin-top: 0;
+    color: red;
+}
+
+.item-management {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delete-item {
+    color: #828282;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.delete-item:hover {
+    color: #208f20;
+}
+
+.add-more-number {
+    border: solid #80808063 1px;
+    border-radius: 1vh;
+}
+
+.add-more-number > div {
+    display: flex;
+    justify-content: center;
+}
+
+.more-number {
+    margin-top: 1vh;
+    margin-bottom: 0.5vh;
+}
+
+.add-more, .add-less {
+    margin: 0.5vh 0 1vh 0;
+    color: rgb(128 128 128 / 72%);
+}
+
+.add-more:hover, .add-less:hover {
+    color: rgb(128 128 128);
+}
